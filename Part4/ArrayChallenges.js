@@ -41,14 +41,14 @@ let PopularTeas= ["green tea", "Oolang tea", "Chai"];
 let softCopyTeas= PopularTeas;
 console.log(softCopyTeas);
 PopularTeas.pop();
-console.log(PopularTeas);
+console.log(PopularTeas); //deep copy
 console.log(softCopyTeas); //actually pointing the reference
 
 /* You have an array named 'topCities' containing "Berlin", "Singapore" and "New York".
 Create an hard copy of this array and named 'hardCopyCities */
 
 let topCities= ["Berlin", "Singapore", "New York"];
-let hardCopyCities= [...topCities]; //way to hardcopy 
+let hardCopyCities= [...topCities]; //way to hardcopy =shallow copy, pass by value
 // let hardCopyCities= topCities.slice(); another way to hardcopy but not recommeneded
 topCities.pop();
 console.log(hardCopyCities);

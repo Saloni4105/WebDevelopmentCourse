@@ -24,7 +24,7 @@ function OrderTea(teaType)
 let OrderConfirmation = OrderTea("chai");
 console.log(OrderConfirmation);
 
-// Write an arrow function named 'calculateTotal' that takes two paramters: "price" and 'quantity'. Tje fucntion should return
+// Write an arrow function named 'calculateTotal' that takes two paramters: "price" and 'quantity'. The function should return
 //  the total cost by multiplying the 'price' and 'quantity'
 // Store the result in a variable named 'totalCost'.
 
@@ -49,7 +49,7 @@ function processteaOrder(teaFunction){
 let Order= processteaOrder(makeTea);
 console.log(Order);
 
-// Write a function named 'createmaker' that returns another function. The returned fucntion should take one parameter, 'teaType'
+// Write a function named 'createmaker' that returns another function. The returned function should take one parameter, 'teaType'
 // and return a message like "Making green tea"
 // Store the returned fucntion in a variable named 'teaMaker' and call it with "green tea"
 

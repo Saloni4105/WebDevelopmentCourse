@@ -44,7 +44,7 @@ else
 
 // 4. check if a boolean value is true or false
 
-let isTeaReady= false;
+let isTeaReady= true;
 
 if(isTeaReady)
 {
@@ -58,7 +58,7 @@ else
 
 // 5. Checking if a array is empty or not
 
-let items=[]
+let items=[1,2]
 
 console.log(items.length);
 if(items.length === 0)

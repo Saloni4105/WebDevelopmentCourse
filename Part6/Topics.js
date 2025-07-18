@@ -29,6 +29,8 @@ const obj= {
     },
 };
 obj.greet();
+console.log(typeof obj.name);
+
 
 const arrowObj= {
     name: "Saloni",
@@ -40,7 +42,7 @@ const arrowObj= {
 arrowObj.greet();
 
 // 4. Higher Order Function:- A higher- Order function is a function that takes another function as an argument or return a fucntion
-// map(), filter(), reduce() are all hiher-order funcition
+// map(), filter(), reduce() are all higher-order funcition
 function sayHello()
 {
     return "Hello";

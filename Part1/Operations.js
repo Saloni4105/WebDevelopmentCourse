@@ -3,16 +3,20 @@ let bonus=25
 
 let totalScore= score + bonus;
 
-// Operations
+// Arithmetic Operations
 let addition= 4 + 3;
 let Substraction= 9 - 8;
 let mul= 4 * 3;
 let div= 4 / 2;
 let rem= 5 % 2;
-let expo= 2**3; //exponential, power of anything
+let expo= 2**5; //exponential, power of anything
+console.log(rem);
+console.log(expo);
+
 
 let myscore= 100;
 myscore++; // Increment
+console.log(myscore);
 
 let credits= 24;
 credits--; //Decrement

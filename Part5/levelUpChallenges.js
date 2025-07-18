@@ -90,7 +90,7 @@ for (const city in cityPopulation) {
     }
     cityNewPopulations[city]= cityPopulation[city];
 }
-// console.log(cityNewPopulations);
+console.log(cityNewPopulations);
 
 /* Use a for-in loop to loop through an object containing city populations. Skip any city with a population below 3 million and
 store the rest in a new object named 'largeCities'

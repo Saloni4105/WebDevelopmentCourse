@@ -7,7 +7,7 @@ function stringToNumber(input) {
     
     let num= Number(input);
     return isNaN(num) ? "Not a number" : num;
-    
+  
 }
 
 // Task 2:
@@ -25,7 +25,7 @@ function flipBoolean(input) {
 // If it's a number, return "I'm a number!", if it's a string, return "I'm a string!"
 
 function whatAmI(input) {
-    let converted = String(input);
+    // let converted = String(input);
      
      if(typeof input === "number")
      {

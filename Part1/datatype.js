@@ -19,3 +19,4 @@ let user= {firstname:"Saloni", lastname:"gawande"};
 
 let getScore= score;
 console.log(getScore);
+console.log(user);
